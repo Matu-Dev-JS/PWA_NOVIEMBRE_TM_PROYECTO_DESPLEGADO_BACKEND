@@ -243,7 +243,7 @@ export const forgotPasswordController = async (req, res) => {
             expiresIn: '1h'
         })
         //TODO crear una url_front en el ENVIROMENT
-        const URL_FRONT = 'http://localhost:5173'
+        const URL_FRONT = ENVIROMENT.URL_FRONT
         const resetUrl = `${URL_FRONT}/reset-password/${resetToken}`
         sendEmail({
             to: user.email,

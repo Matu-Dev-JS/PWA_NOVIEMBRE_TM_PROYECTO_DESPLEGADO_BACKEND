@@ -10,6 +10,7 @@ const ENVIROMENT = {
     GMAIL_PASS: process.env.GMAIL_PASS,
     GMAIL_USER: process.env.GMAIL_USER,
     API_KEY_INTERN: process.env.API_KEY_INTERN,
+    URL_FRONT: process.env.URL_FRONT,
     MYSQL: {
         USERNAME: process.env.MYSQL_USERNAME, //si es local 'root'
         HOST: process.env.MYSQL_HOST, //localhost
